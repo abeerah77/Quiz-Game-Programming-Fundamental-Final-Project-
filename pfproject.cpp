@@ -3,6 +3,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <string>
+//comments
 
 using namespace std;
 
@@ -488,7 +489,7 @@ void saveWrongQuestion(int qindex) {
     wrongcount++;
 }
 // FUNCTION: playquiz()
-// Main quiz engine — handles lifelines, questioning, scoring, timing
+// Main quiz engine ï¿½ handles lifelines, questioning, scoring, timing
 void playquiz() {
     wrongcount = 0;
     resetgamestate(); // Reset score, streak, etc.
